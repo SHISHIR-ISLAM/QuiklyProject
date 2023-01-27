@@ -1,0 +1,172 @@
+/* custom style  */
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.js-center {
+  justify-content: center;
+}
+.js-between {
+  justify-content: space-between;
+}
+.js-start {
+  justify-content: end;
+}
+.js-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+
+/* grid  */
+.grid {
+  display: grid;
+}
+
+.grid-1x2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-1x3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* color  */
+.bg-primary {
+  background: var(--primary-clr);
+}
+.bg-secondary {
+  background: var(--secondary-clr);
+}
+.bg-light-2 {
+  background: var(--light-2);
+}
+
+.text-gold {
+  color: #fee749;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-light {
+  background: var(--light);
+}
+.bg-card-gray {
+  background: #e3e3e3;
+}
+.bg-card-light {
+  background: #f2f2f2;
+}
+
+/* text  */
+.text-sm {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* color  */
+.text-primary {
+  color: var(--primary-clr);
+}
+.text-light {
+  color: var(--light-2);
+}
+.text-gray {
+  color: var(--gray-clr) !important;
+}
+
+/* gap  */
+.g-1 {
+  gap: 1rem;
+}
+.g-2 {
+  gap: 2rem;
+}
+.g-3 {
+  gap: 3rem;
+}
+.g-4 {
+  gap: 4rem;
+}
+.g-5 {
+  gap: 5rem;
+}
+
+/* btn  */
+.btn {
+  padding: 1rem 3.5rem;
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* heading  */
+.heading-lg {
+  font-size: 4.3rem;
+}
+.heading-md {
+  font-size: 2.7rem;
+  margin-top: 0;
+  line-height: 1;
+}
+.heading-sm {
+  font-size: 2.2rem;
+  margin: 1.5rem 0;
+}
+
+.lead {
+  font-size: 1.8rem;
+}
+
+/* padding  */
+.section-padding {
+  padding: 5rem 0;
+}
+
+/* margin  */
+.mt-1 {
+  margin-top: 0.8rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.my-3 {
+  margin: 2.5rem 0;
+}
+
+.app-lead {
+    text-align: center;
+    width: 80rem;
+    margin: auto !important; 
+}
